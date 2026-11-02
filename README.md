@@ -118,32 +118,32 @@ python -m unittest discover -s tests -v
 
 Запуск и работа команд-заглушек:
 
-Asus@DESKTOP-07G7B6J:~\os-emulator$ ls
+Asus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ ls
 ls: []
-Asus@DESKTOP-07G7B6J:~\os-emulator$ ls src tests
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ ls src tests
 ls: ['src', 'tests']
-Asus@DESKTOP-07G7B6J:~\os-emulator$ cd Documents
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ cd Documents
 cd: ['Documents']
 
 Аргументы в кавычках:
 
-Asus@DESKTOP-07G7B6J:~\os-emulator$ ls "my folder"
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ ls "my folder"
 ls: ['my folder']
-Asus@DESKTOP-07G7B6J:~\os-emulator$ cd "Program Files"
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ cd "Program Files"
 cd: ['Program Files']]
 
 Обработка ошибок:
 
-Asus@DESKTOP-07G7B6J:~\os-emulator$ foo
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ foo
 Error: unknown command 'foo'.
-Asus@DESKTOP-07G7B6J:~\os-emulator$ ls "my folder
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ ls "my folder
 Error: invalid command syntax.
-Asus@DESKTOP-07G7B6J:~\os-emulator$ cd one two
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ cd one two
 Error: cd accepts at most one argument.
-Asus@DESKTOP-07G7B6J:~\os-emulator$ exit now
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ exit now
 Error: exit does not accept arguments.
 
 Пустой ввод и завершение работы:
 
-Asus@DESKTOP-07G7B6J:~\os-emulator$
-Asus@DESKTOP-07G7B6J:~\os-emulator$ exit
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$
+sus@DESKTOP-07G7B6J:~\OneDrive\Desktop\os-emulator$ exit
