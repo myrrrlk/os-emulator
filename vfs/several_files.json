@@ -1,0 +1,26 @@
+{
+  "name": "several_files",
+  "root": {
+    "type": "dir",
+    "children": {
+      "readme.txt": {
+        "type": "file",
+        "content": "This is a virtual file system.\n"
+      },
+      "notes.txt": {
+        "type": "file",
+        "content": "Buy milk.\nCall mom.\n"
+      },
+      "hello.sh": {
+        "type": "file",
+        "encoding": "base64",
+        "content": "IyEvYmluL3NoCmVjaG8gSGVsbG8K"
+      },
+      "data.bin": {
+        "type": "file",
+        "encoding": "base64",
+        "content": "AAECAwQFBgcICQoLDA0ODw=="
+      }
+    }
+  }
+}

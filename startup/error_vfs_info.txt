@@ -1,0 +1,4 @@
+# Error: vfs-info does not accept arguments.
+vfs-info
+vfs-info --all
+ls never-executed

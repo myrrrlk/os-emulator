@@ -179,6 +179,12 @@ class TestMain(ScriptFileMixin, unittest.TestCase):
         self.assertEqual(result, EXIT_FAILURE)
         self.assertIn("Error: startup script stopped at line 1", output)
 
-
+    def test_missing_vfs(self):
+        """Проверяет код завершения, если VFS не загружается."""
+        argv = ["--vfs", "no_such_vfs.json"]
+        result, output = capture_output(main, argv)
+        self.assertEqual(result, EXIT_FAILURE)
+        self.assertIn("Error: cannot read VFS file", output)
+        
 if __name__ == "__main__":
     unittest.main()

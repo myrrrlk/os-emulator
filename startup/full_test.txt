@@ -1,0 +1,22 @@
+# Full test of all commands of stages 1-3.
+# Run with a VFS, for example: --vfs vfs/three_levels.json
+
+# Service command: information about the loaded VFS.
+vfs-info
+
+# ls without arguments, with arguments and with quotes.
+ls
+ls home etc
+ls "my folder" 'other folder'
+
+# cd without arguments, with one argument and with quotes.
+cd
+cd home
+cd "Program Files"
+
+# Empty lines and comments are skipped.
+
+# Error handling: the script stops at the first error,
+# so the last line is never executed.
+cd one two
+ls never-executed

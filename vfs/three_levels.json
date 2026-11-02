@@ -1,0 +1,53 @@
+{
+  "name": "three_levels",
+  "root": {
+    "type": "dir",
+    "children": {
+      "home": {
+        "type": "dir",
+        "children": {
+          "user": {
+            "type": "dir",
+            "children": {
+              "documents": {
+                "type": "dir",
+                "children": {
+                  "report.txt": {
+                    "type": "file",
+                    "content": "Quarterly report.\n"
+                  },
+                  "photo.bin": {
+                    "type": "file",
+                    "encoding": "base64",
+                    "content": "AAECAwQFBgcICQoLDA0ODw=="
+                  }
+                }
+              },
+              "todo.txt": {
+                "type": "file",
+                "content": "Finish stage 3.\n"
+              }
+            }
+          }
+        }
+      },
+      "etc": {
+        "type": "dir",
+        "children": {
+          "hostname": {
+            "type": "file",
+            "content": "emulator\n"
+          }
+        }
+      },
+      "tmp": {
+        "type": "dir",
+        "children": {}
+      },
+      "readme.txt": {
+        "type": "file",
+        "content": "Root of the virtual file system.\n"
+      }
+    }
+  }
+}

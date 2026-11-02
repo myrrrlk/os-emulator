@@ -1,0 +1,13 @@
+{
+  "name": "broken_base64",
+  "root": {
+    "type": "dir",
+    "children": {
+      "image.bin": {
+        "type": "file",
+        "encoding": "base64",
+        "content": "this is not base64!"
+      }
+    }
+  }
+}
