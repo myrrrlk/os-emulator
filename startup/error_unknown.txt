@@ -1,0 +1,4 @@
+# Error: unknown command. The last line must not be executed.
+ls
+foo
+ls never-executed

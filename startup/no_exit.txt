@@ -1,0 +1,3 @@
+# Script without exit: the emulator switches to interactive mode.
+ls
+cd docs

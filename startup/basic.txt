@@ -1,0 +1,9 @@
+# Stage 2: all commands without errors.
+ls
+ls src tests
+ls "my folder" 'other folder'
+cd
+cd docs
+cd "Program Files"
+
+exit

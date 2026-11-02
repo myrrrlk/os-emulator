@@ -1,0 +1,3 @@
+# Error: exit does not accept arguments.
+exit now
+ls never-executed

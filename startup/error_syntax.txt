@@ -1,0 +1,3 @@
+# Error: unclosed quote.
+ls "my folder
+ls never-executed

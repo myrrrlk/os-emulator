@@ -1,2 +1,4 @@
 @echo off
-python src\main.py
+pushd "%~dp0"
+python -m src.main %*
+popd

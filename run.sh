@@ -1,2 +1,3 @@
 #!/bin/sh
-python3 src/main.py
+cd "$(dirname "$0")" || exit 1
+python3 -m src.main "$@"

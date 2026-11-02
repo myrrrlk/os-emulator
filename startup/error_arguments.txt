@@ -1,0 +1,4 @@
+# Error: wrong number of arguments.
+cd docs
+cd one two
+ls never-executed
